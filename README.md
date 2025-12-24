@@ -22,3 +22,23 @@ expense-sharing-app/
         └── api.js
 
 
+# Expense Sharing Application
+
+A simplified Splitwise-like expense sharing application.
+
+## Features
+- Create users and groups
+- Add shared expenses
+- Equal split logic
+- Automatic balance tracking
+- Backend-first design
+
+## Tech Stack
+- Backend: FastAPI, SQLite
+- Frontend: React (Vite)
+
+## Design Decisions
+- Used FastAPI for clean REST APIs
+- SQLite for simplicity and portability
+- ORM-based balance tracking
+- Easily extendable for exact and percentage splits
